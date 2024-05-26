@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  background-color: black; /* Maintain a background color as fallback */
+  font-family: Arial, sans-serif;
+}
+
+.background-fixed {
+  z-index: -10;
+  background-image: url('https://assets-global.website-files.com/655f3c705634d1907e75feab/655f84f6e91c89392e5d9da1_Background-fixed-2520.svg');
+  background-position: center;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Footer Styles */
+.footer-content {
+  padding-left: 10vh;
+  padding-top: 10vh;
+  margin-top: 10vh;
+  text-align: left;
+  color: white;
+  background-color: black; /* Set footer background color to black */
+
+}
+
+/* Centering the icon and name */
+.footer-icon {
+  display: flex;
+  align-items: center; /* Vertically center align */
+  justify-content: left; /* Horizontally center align */
+  margin-top: 10px;
+  padding-bottom: 10vh;
+}
+
+.footer-icon img {
+  margin-right: 20px; /* Space between icon and text */
+}
+
+/* Ensure p tag inside footer-icon does not have extra margin */
+.footer-icon p {
+  margin: 0;
+}
+
+.footercredits{
+  display: flex;
+  justify-content: center;
+}
+

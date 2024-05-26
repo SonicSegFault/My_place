@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> My Place </title>
+  <link rel="stylesheet" href="generalstyles.css">
+  <link rel="stylesheet" href="textstyles.css">
+  <link rel="stylesheet" href="navbar_flexbox.css">
+  <link rel="stylesheet" href="blankcontentstyles.css">
+  <link rel="stylesheet" href="imageslider.css">
+  <script src="navscripts.js"></script>
+  <script src="imageslider.js"></script>
+  <link rel="icon" href="assets/myplaceicon.png" type="image/x-icon">
+</head>
+
+<body>
+  <div class="background-fixed"></div>
+  <div class="navbar">
+    <div class="left">
+      <a href="#"><img class="left-icon" src="assets/Profileowner.gif"></a>
+    </div>
+    <div class="right">
+      <div class="dropdown">
+        <a href="#" class="dropbtn green">Learn <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M17.293 8.293a1 1 0 1 1 1.414 1.414l-6 6a1 1 0 0 1-1.383.03l-6-5.5a1 1 0 1 1 1.352-1.474l5.294 4.853 5.323-5.323Z"></path></svg></a>
+        <div class="dropdown-content">
+          <a href="#">Submenu 1</a>
+          <a href="#">Submenu 2</a>
+          <a href="#">Submenu 3</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <a href="#" class="dropbtn yellow">My Work <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M17.293 8.293a1 1 0 1 1 1.414 1.414l-6 6a1 1 0 0 1-1.383.03l-6-5.5a1 1 0 1 1 1.352-1.474l5.294 4.853 5.323-5.323Z"></path></svg></a>
+        <div class="dropdown-content">
+          <a href="#">Submenu 1</a>
+          <a href="#">Submenu 2</a>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <a href="#" class="dropbtn blue">My Games <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M17.293 8.293a1 1 0 1 1 1.414 1.414l-6 6a1 1 0 0 1-1.383.03l-6-5.5a1 1 0 1 1 1.352-1.474l5.294 4.853 5.323-5.323Z"></path></svg></a>
+        <div class="dropdown-content">
+          <a href="#">Submenu 1</a>
+          <a href="#">Submenu 2</a>
+          <a href="#">Submenu 3</a>
+          <a href="#">Submenu 4</a>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <a href="#" class="dropbtn purple">Portfolio <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M17.293 8.293a1 1 0 1 1 1.414 1.414l-6 6a1 1 0 0 1-1.383.03l-6-5.5a1 1 0 1 1 1.352-1.474l5.294 4.853 5.323-5.323Z"></path></svg></a>
+        <div class="dropdown-content">
+          <a href="#">Submenu 1</a>
+          <a href="#">Submenu 2</a>
+          <a href="#">Submenu 3</a>
+        </div>
+      </div>
+      
+      <div class="dropdown">
+        <a href="#" class="dropbtn red">Contact Me <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="currentColor" d="M17.293 8.293a1 1 0 1 1 1.414 1.414l-6 6a1 1 0 0 1-1.383.03l-6-5.5a1 1 0 1 1 1.352-1.474l5.294 4.853 5.323-5.323Z"></path></svg></a>
+        <div class="dropdown-content">
+          <a href="#">Submenu 1</a>
+          <a href="#">Submenu 2</a>
+          <a href="#">Submenu 3</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="owner-container">
+    <div class="owner-name">Suyog Acharya</div>
+  </div>
+
+  <div class="content">
+    <h2>Ways To Connect</h2>
+    <div class="image-flexbox">
+      <a href="https://discord.com/users/921393402736689204" target="_blank"> <img src="assets/Discordlogo.png" alt="Image 1" class="flexbox-image" style="transform: scale(0.9);"></a>
+      <a href="https://github.com/SonicSegFault" target="_blank"><img src="assets/githublogo.png" alt="Image 2" class="flexbox-image" style="transform: scale(1.2);"></a>
+      <a href="https://open.spotify.com/user/mwgx8ddib3768ek4lx4otxsw4?si=l12cqgK9QbqJ3DQASXbRWw&utm_source=copy-link" target="_blank"><img src="assets/spotifylogo.png" alt="Image 1" class="flexbox-image" style="transform: scale(1);"></a>
+      <a href="" target="_blank"><img src="assets/linkedinlogo.png" alt="Image 2" class="flexbox-image" style="transform: scale(0.8);"></a>
+      <a href="" target="_blank"><img src="assets/gamillogo.png" alt="Image 1" class="flexbox-image" style="transform: scale(0.9);"></a>
+    </div>
+  </div>
+
+  <div class="slider-container">
+    <button class="prev" onclick="prevSlide()">&#10094;</button>
+    <div class="slider">
+      <img src="https://images.hdqwalls.com/download/cyberpunk-2077-4k-2020-n5-2560x1440.jpg" alt="Image 1">
+      <img src="https://wallpapercave.com/wp/wp6823992.jpg" alt="Image 2">
+      <img src="https://images.hdqwalls.com/wallpapers/cyberpunk-2077-girl-smoking-4k-q3.jpg" alt="Image 3">
+    </div>
+    <button class="next" onclick="nextSlide()">&#10095;</button>
+  </div>
+
+  <footer>
+    <div class="footer-content">
+      <p>Created by</p>
+      <div class="footer-icon">
+        <img src="assets/Profileowner.gif" alt="Your Icon">
+        <p style="display: inline; ">Suyog Acharya</p>
+      </div>
+      <p class="footercredits">@2024, All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</body>
+
+</html>

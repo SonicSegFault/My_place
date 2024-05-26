@@ -1,0 +1,24 @@
+.content {
+    text-align: center;
+    color: white;
+    height: 200px;
+  }
+  
+  .image-flexbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Adjust the gap between images */
+    margin-top: 40px;
+  } 
+  
+  .image-flexbox img {
+    max-width: 100%;
+    height: auto;
+    cursor: pointer;
+  }
+  
+  .flexbox-image {
+    width: 150px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+  }
